@@ -1,0 +1,67 @@
+.flex-container {
+    height: 14vh;
+    justify-content: center;
+}
+
+button {
+    display: table-cell;
+    width: 90%;
+    height: 80%;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Orbitron', sans-serif;
+    transition: all .13s ease;
+}
+
+.flex-container.blue button {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.flex-container.orange button {
+    color: orangered;
+}
+
+.flex-container.operator button {
+    color: deepskyblue;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
+
+.button:active {
+    transform: scale(1.1);
+    border-color: #fafafa;
+    box-shadow: 0 0 1rem #fafafa;
+}
+
+@media (min-width: 400px) and (min-height: 400px) {
+    button {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 500px) {
+    button {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 600px) and (min-height: 600px) {
+    button {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 800px) and (min-height: 800px) {
+    button {
+        font-size: 35px;
+    }
+}

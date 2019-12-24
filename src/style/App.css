@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+    margin:0;
+    padding: 0;
+ 
+}
+
+.header {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+}
+
+.header > img {
+    width: 8vw;
+    height: 10vh;
+    
+}
+.header > span {
+    margin-left: 5px;
+    margin-top: calc(100% - 98.5%);
+    color: deepskyblue;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+}
